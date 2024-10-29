@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @ZLab511
 - 😄 Aim: All in Open
 
-
+Mathematical formula recognition is an important component of document understanding and has broad application value in academic literature processing and intelligent education However, existing research mainly focuses on improving the model architecture to enhance the recognition performance of relatively simple formulas, ignoring the limitations of existing benchmark datasets in terms of scale, quality, and diversity, which limits the development of complex formula recognition technology This article has made two key contributions. Firstly, high-quality printed MaxTex (P) and handwritten scanned MaxTex (H) datasets have been constructed MaxTex (P) contains 223000 samples and avoids symbol redundancy by adopting a unified and efficient morpheme design; Although MaxTex (H) has a moderate scale, it optimizes the morpheme space and covers complex mathematical expressions At the same time, these two datasets have been strictly controlled in terms of sample size, data quality, and annotation accuracy, providing a more reliable benchmark for model training and evaluation Secondly, an innovative character sequence encoding and decoding scheme was designed to solve the problems of missing spaces in existing LaTeX label sequences and dictionary inflation caused by BPE encoding and decoding, while preserving the semantic information of the original character sequence
 <!---
 ZLab511/ZLab511 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
